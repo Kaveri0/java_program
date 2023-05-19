@@ -1,0 +1,47 @@
+List =[1,2,3,4,5]
+List1=[7,8,9]
+List.append(6)
+List2=List+List1
+print(List2)
+print(len(List2))
+print(List[2:10])
+print(List[4:])
+name="KAIVERI"
+
+print(name.count('KRI'))
+print(name.lower())
+A={23,43,1,54}
+B={34,6,3,29,4,1}
+print(A-B)
+print(B-A)
+print(A|B)
+print(A&B)
+print(A.add(22))
+print(A)
+B.remove(29)
+print(B)
+family=('vijaya','kishan','rahul')
+initail=('Eslavath')
+
+print(family[2])
+age={'kaver':20,'rahul':23,'vijaya':40,'kishan':43}
+print(age)
+age.update({'ramya':299})
+print(age)
+for i in range(5,10,2):
+    print(i)
+listk=[80,90,100,120]
+print(listk[::-2])
+print(0.3+0.4)
+print(13//14)
+i = 1
+while i <= 5:
+    print(i)
+    i += 2
+else:
+    print(0)
+ 
+print(name[1:5])
+print(math.sqrt(25))
+
+print(name[1:5])
